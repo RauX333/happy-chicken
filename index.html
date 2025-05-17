@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 设置字符编码 -->
+    <meta charset="UTF-8">
+    <!-- 适配不同设备的视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 设置页面标题 -->
+    <title>Happy Chicken Game</title>
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入 MIDI.js 库 -->
+    <script src="https://cdn.jsdelivr.net/npm/midi.js@0.0.4/build/MIDI.min.js"></script>
+</head>
+<body>
+    <!-- 游戏标题 -->
+    <h1>Happy Chicken</h1>
+    <!-- 游戏状态提示 -->
+    <div class="status" id="status">Press <span class="space-key">SPACE</span> to lay eggs!</div>
+    <!-- 游戏容器 -->
+    <div class="game-container">
+        <div class="chicken" id="chicken"></div>
+    </div>
+    <!-- 引入游戏逻辑脚本 -->
+    <script src="game.js"></script>
+</body>
+</html>
